@@ -44,6 +44,15 @@
             color: #888888;
             text-decoration: none;
         }
+        /* Скрытая кнопка */
+        .hidden-link {
+            color: #ffffff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .hidden-link:hover {
+            color: #cccccc;
+        }
         h1 { margin: 0; }
         p { line-height: 1.5; }
     </style>
@@ -66,6 +75,8 @@
         <span>Investors</span>
         <span>Careers</span>
         <a>Contacts</a>
+        <!-- Скрытая кнопка -->
+        <a class="hidden-link" onclick="alert('Company: W.I.T. Co. Established 1986. Primary focus: Early linguistic neural network research. Entity: W.I.T. W.O.M.A.N. (Working Object for Machine Analysis & Networking). Internal logs indicate the Wooman designation originated as a persistent deviation from the W.O.M.A.N. functional model.')">About Us</a>
     </div>
 
     <h2>About Us</h2>
